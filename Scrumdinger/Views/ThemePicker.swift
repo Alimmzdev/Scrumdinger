@@ -2,7 +2,7 @@
 //  ThemePicker.swift
 //  Scrumdinger
 //
-//  Created by Shahrooz Ansari on 10/26/25.
+//  Created by Alimmz on 10/26/25.
 //
 
 import SwiftUI
