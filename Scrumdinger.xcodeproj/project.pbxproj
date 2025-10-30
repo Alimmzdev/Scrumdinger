@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF4362DE2EADFBDD00F34F9E /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = DF4362DD2EADFBDD00F34F9E /* ThemeKit */; };
 		DF4362F82EAE3BD400F34F9E /* TimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = DF4362F72EAE3BD400F34F9E /* TimerKit */; };
+		FA2473CC2EB3E3870051B2E0 /* TranscriptionKit in Frameworks */ = {isa = PBXBuildFile; productRef = FA2473CB2EB3E3870051B2E0 /* TranscriptionKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 			files = (
 				DF4362DE2EADFBDD00F34F9E /* ThemeKit in Frameworks */,
 				DF4362F82EAE3BD400F34F9E /* TimerKit in Frameworks */,
+				FA2473CC2EB3E3870051B2E0 /* TranscriptionKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +76,7 @@
 			packageProductDependencies = (
 				DF4362DD2EADFBDD00F34F9E /* ThemeKit */,
 				DF4362F72EAE3BD400F34F9E /* TimerKit */,
+				FA2473CB2EB3E3870051B2E0 /* TranscriptionKit */,
 			);
 			productName = Scrumdinger;
 			productReference = DF4362CE2EADF79F00F34F9E /* Scrumdinger.app */;
@@ -106,6 +109,7 @@
 			packageReferences = (
 				DF4362DC2EADFBDD00F34F9E /* XCLocalSwiftPackageReference "ThemeKit" */,
 				DF4362F62EAE3BD400F34F9E /* XCLocalSwiftPackageReference "TimerKit" */,
+				FA2473CA2EB3E3870051B2E0 /* XCLocalSwiftPackageReference "../../../../Downloads/TranscribingSpeechToText/StartingProject/TutorialResources/TranscriptionKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DF4362CF2EADF79F00F34F9E /* Products */;
@@ -266,6 +270,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +303,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -351,6 +359,10 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = TimerKit;
 		};
+		FA2473CA2EB3E3870051B2E0 /* XCLocalSwiftPackageReference "../../../../Downloads/TranscribingSpeechToText/StartingProject/TutorialResources/TranscriptionKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../../../Downloads/TranscribingSpeechToText/StartingProject/TutorialResources/TranscriptionKit;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -361,6 +373,10 @@
 		DF4362F72EAE3BD400F34F9E /* TimerKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = TimerKit;
+		};
+		FA2473CB2EB3E3870051B2E0 /* TranscriptionKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TranscriptionKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
