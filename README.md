@@ -182,7 +182,7 @@ This project follows Apple's sample code license. The tutorial content and origi
 
 ## 👨‍💻 Author
 
-Your Name - [Your GitHub](https://github.com/yourusername)
+Alimmzdev - [Alimmzdev]([https://github.com/yourusername](https://github.com/Alimmzdev))
 
 ## 🙏 Acknowledgments
 
