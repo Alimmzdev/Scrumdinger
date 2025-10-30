@@ -66,7 +66,7 @@ This project demonstrates essential iOS development concepts:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/scrumdinger.git
+git clone https://github.com/Alimmzdev/Scrumdinger.git
 cd scrumdinger
 ```
 
